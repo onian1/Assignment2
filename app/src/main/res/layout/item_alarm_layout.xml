@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="12dp"
+    android:background="@drawable/rounded_background"
+    android:layout_marginBottom="8dp"
+    android:layout_gravity="center"
+    >
+
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="08:00 AM"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/labelTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:text="Morning"
+        android:textSize="16sp"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Active"
+        android:textSize="14sp"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_gravity="center_vertical" />
+</LinearLayout>
